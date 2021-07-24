@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [functionaltests.LoginPageTests]">
+  <listeners>
+    <listener class-name="helperlib.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="SeleniumTests(failed)">
+    <classes>
+      <class name="functionaltests.HomePageTests">
+        <methods>
+          <include name="initSetup"/>
+          <include name="validateMenuIcons"/>
+          <include name="tearDown"/>
+          <include name="performLoginTests"/>
+        </methods>
+      </class> <!-- functionaltests.HomePageTests -->
+      <class name="functionaltests.LoginPageTests">
+        <methods>
+          <include name="performLoginTests"/>
+          <include name="initSetup"/>
+          <include name="validatePasswordFieldTest"/>
+          <include name="tearDown"/>
+          <include name="validateEmailFieldTest"/>
+          <include name="validateSubmitButtonFieldTest"/>
+        </methods>
+      </class> <!-- functionaltests.LoginPageTests -->
+    </classes>
+  </test> <!-- SeleniumTests(failed) -->
+</suite> <!-- Failed suite [functionaltests.LoginPageTests] -->

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="functionaltests.LoginPageTests" duration-ms="25826" started-at="2021-07-24T11:54:44 IST" finished-at="2021-07-24T11:55:10 IST">
+    <groups>
+    </groups>
+    <test name="SeleniumTests" duration-ms="25826" started-at="2021-07-24T11:54:44 IST" finished-at="2021-07-24T11:55:10 IST">
+      <class name="functionaltests.HomePageTests">
+        <test-method status="PASS" signature="initSetup()[pri:0, instance:functionaltests.HomePageTests@29774679]" name="initSetup" is-config="true" duration-ms="3300" started-at="2021-07-24T11:54:57 IST" finished-at="2021-07-24T11:55:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method status="PASS" signature="performLoginTests()[pri:0, instance:functionaltests.HomePageTests@29774679]" name="performLoginTests" is-config="true" duration-ms="8698" started-at="2021-07-24T11:55:01 IST" finished-at="2021-07-24T11:55:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLoginTests -->
+        <test-method status="PASS" signature="validateMenuIcons()[pri:0, instance:functionaltests.HomePageTests@29774679]" name="validateMenuIcons" duration-ms="363" started-at="2021-07-24T11:55:09 IST" finished-at="2021-07-24T11:55:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMenuIcons -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:functionaltests.HomePageTests@29774679]" name="tearDown" is-config="true" duration-ms="700" started-at="2021-07-24T11:55:10 IST" finished-at="2021-07-24T11:55:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- functionaltests.HomePageTests -->
+      <class name="functionaltests.LoginPageTests">
+        <test-method status="PASS" signature="initSetup()[pri:0, instance:functionaltests.LoginPageTests@61832929]" name="initSetup" is-config="true" duration-ms="4920" started-at="2021-07-24T11:54:45 IST" finished-at="2021-07-24T11:54:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method status="PASS" signature="validateEmailFieldTest()[pri:0, instance:functionaltests.LoginPageTests@61832929]" name="validateEmailFieldTest" duration-ms="4239" started-at="2021-07-24T11:54:49 IST" finished-at="2021-07-24T11:54:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmailFieldTest -->
+        <test-method status="PASS" signature="validatePasswordFieldTest()[pri:1, instance:functionaltests.LoginPageTests@61832929]" name="validatePasswordFieldTest" duration-ms="115" started-at="2021-07-24T11:54:54 IST" finished-at="2021-07-24T11:54:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePasswordFieldTest -->
+        <test-method status="PASS" signature="validateSubmitButtonFieldTest()[pri:2, instance:functionaltests.LoginPageTests@61832929]" name="validateSubmitButtonFieldTest" duration-ms="103" started-at="2021-07-24T11:54:54 IST" finished-at="2021-07-24T11:54:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSubmitButtonFieldTest -->
+        <test-method status="PASS" signature="performLoginTests()[pri:3, instance:functionaltests.LoginPageTests@61832929]" name="performLoginTests" duration-ms="2574" started-at="2021-07-24T11:54:54 IST" finished-at="2021-07-24T11:54:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLoginTests -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:functionaltests.LoginPageTests@61832929]" name="tearDown" is-config="true" duration-ms="759" started-at="2021-07-24T11:54:56 IST" finished-at="2021-07-24T11:54:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- functionaltests.LoginPageTests -->
+    </test> <!-- SeleniumTests -->
+  </suite> <!-- functionaltests.LoginPageTests -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="functionaltests.LoginPageTests">
+    <listeners>
+        <listener class-name="helperlib.CustomListeners"></listener>
+    </listeners>
+    <test name="SeleniumTests">
+        <classes>
+            <class name="functionaltests.LoginPageTests"/>
+            <class name="functionaltests.HomePageTests"/>
+        </classes>
+    </test>
+</suite>
